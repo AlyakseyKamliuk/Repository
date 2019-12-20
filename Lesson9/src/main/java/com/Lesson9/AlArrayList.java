@@ -3,8 +3,8 @@ package com.Lesson9;
 import java.util.Arrays;
 
 public class AlArrayList <T> {
-    private Object[] mas = new Object[8];
-    private int schetchik = 0;
+    private Object[] elements = new Object[8];
+    private int enumerator = 0;
 
     public AlArrayList(Object... parametr) {
         for (int i = 0; i < parametr.length; i++) {
@@ -14,50 +14,47 @@ public class AlArrayList <T> {
 
     void add(T value) {
         addLengthToMas();
-        mas[schetchik] = value;
-        schetchik++;
+        elements[enumerator] = value;
+        enumerator++;
     }
 
 
     void delete(int index) {
-        if ((index>schetchik)||(schetchik<0)){throw new IndexOutOfBoundsException();}
+        if ((index> enumerator)||(enumerator <0)){throw new IndexOutOfBoundsException();}
         int j = 0;
-        Object[] tmp = new Object[mas.length];
-        for (int i = 0; i < mas.length; i++) {
-            if (i != index) {
-                tmp[j] = mas[i];
-                j++;
-            }
-        }
-        mas = tmp;
-        schetchik--;
+        Object[] tmp = new Object[elements.length];
+        enumerator--;
+        System.arraycopy(elements,0,tmp,0,index);
+        System.arraycopy(elements,index+1,tmp,index,5);
+        elements = tmp;
     }
 
     int size() {
-        return schetchik;
+        return enumerator;
     }
 
 
-    public T[] getMas() {
-        return (T[]) mas;
+   public T get(int i) {
+        if (i<enumerator){
+        return (T) elements[i];} else throw new ArrayIndexOutOfBoundsException();
     }
 
     @Override
     public String toString() {
         return "AlArrayList{" +
-                "mas=" + Arrays.toString(mas) +
+                "mas=" + Arrays.toString(elements) +
                 '}';
     }
 
 
     private void addLengthToMas() {
-       if (schetchik >= mas.length % 75) {
+       if (enumerator >= elements.length*0.75) {
             int j = 0;
-            Object[] tmp = new Object[mas.length * 2];
-            for (int i = 0; i < mas.length; i++) {
-                tmp[i] = mas[i];
+            Object[] tmp = new Object[elements.length * 2];
+            for (int i = 0; i < elements.length; i++) {
+                tmp[i] = elements[i];
             }
-            mas = tmp;
+            elements = tmp;
         }
     }
 

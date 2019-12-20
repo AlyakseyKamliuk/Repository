@@ -1,23 +1,22 @@
 package com.Lesson9;
 
-
 public class Main {
     public static void main(String[] args) {
-        AlArrayList<Integer> alArrayList = new AlArrayList<>();
+       AlArrayList<Integer> alArrayList = new AlArrayList<>();
+        alArrayList.add(1);
+        alArrayList.add(2);
+        alArrayList.add(3);
+        alArrayList.add(4);
+        alArrayList.add(5);
+        alArrayList.add(6);
+        alArrayList.add(7);
+        alArrayList.add(8);
+        alArrayList.add(9);
         alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.add(10);
-        alArrayList.delete(11);
+        alArrayList.add(11);
+        alArrayList.add(12);
+        alArrayList.add(13);
+        alArrayList.delete(10);
         System.out.println(alArrayList.size());
         System.out.println(alArrayList.toString());
         AlLinkedList<Integer> alLinkedList = new AlLinkedList<>();

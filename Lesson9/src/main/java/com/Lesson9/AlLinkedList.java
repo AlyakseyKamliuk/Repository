@@ -103,5 +103,4 @@ public class AlLinkedList<T> {
             this.next = next;
         }
     }
-
 }

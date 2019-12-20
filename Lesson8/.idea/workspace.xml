@@ -2,72 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801719d9-50b3-49d7-9467-35e805b6887c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson9/Lesson9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson9/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/CarClone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/CarFormater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Comparators/CoCarBrand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Comparators/CoCarClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Comparators/CoCarModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Comparators/CoConsumption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Comparators/CoOverclockingTo100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Format/CSVFormatterReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Format/CSVFormatterWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Format/FormatterReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Format/FormatterWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Format/JSONFormatterReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Format/JSONFormatterWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Readers/ConsoleReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Readers/UniversalConsoleReader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Readers/UniversalConsoleReader$RandomClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/Readers/UniversalConsoleReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/SortedParClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/TaxiPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/TypeTesttering.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/Lesson8/tempProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rez.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rez2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/CarClone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/CarFormater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/CarFormater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Comparators/CoCarBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Comparators/CoCarClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Comparators/CoCarModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Comparators/CoConsumption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Comparators/CoOverclockingTo100.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Format/CSVFormatterWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/Format/CSVFormatterWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Format/JSONFormatterReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/Format/JSONFormatterReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Readers/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/Readers/ConsoleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/SortedParClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/TaxiPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lesson8/TaxiPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/TypeTesttering.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/tempProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/ProductConsoleReader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/ProductConsoleReader$RandomClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/ProductConsoleReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/TaxiPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/main/com/Lesson8/TypeTesttering.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Proverka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList$Element.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson9/src/main/java/com/Lesson9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/Lesson9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +174,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="355" y="35" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1576848768941" />
+    <state x="637" y="180" key="FileChooserDialogImpl" timestamp="1576853922835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="637" y="180" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576853922835" />
     <state width="1856" height="327" key="GridCell.Tab.0.bottom" timestamp="1576852596120">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -270,10 +214,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="239" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1576849042286" />
-    <state x="522" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1576848594424">
+    <state x="522" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1576853909988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="522" y="285" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576848594424" />
+    <state x="522" y="285" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576853909988" />
     <state x="705" y="100" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576848671390">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
