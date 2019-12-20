@@ -13,7 +13,7 @@ public class AlArrayList <T> {
     }
 
     void add(T value) {
-        addLengthToMas();
+        addLengthToElements();
         elements[enumerator] = value;
         enumerator++;
     }
@@ -47,7 +47,7 @@ public class AlArrayList <T> {
     }
 
 
-    private void addLengthToMas() {
+    private void addLengthToElements() {
        if (enumerator >= elements.length*0.75) {
             int j = 0;
             Object[] tmp = new Object[elements.length * 2];
