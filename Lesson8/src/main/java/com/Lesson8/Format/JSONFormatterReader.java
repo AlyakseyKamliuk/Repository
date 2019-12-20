@@ -43,7 +43,7 @@ public class JSONFormatterReader implements FormatterReader {
 
     private void isNumberOfFieldsInTheClassDoesNotMatch(Integer numberOfFields) {
         if (numberOfFields >= 4) {
-              throw new IndexOutOfBoundsException("Данные в считываемом файле не соотвестувуют формату класса Product");
+              throw new IndexOutOfBoundsException("Данные в считываемом файле не соотвестувуют формату класса");
         }
     }
 

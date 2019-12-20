@@ -2,7 +2,7 @@ package com.Lesson8;
 
 import java.util.Objects;
 
-public class Car implements Comparable {
+public class Car {
     private Character carClass;
     private Double overclockingTo100;
     private Double consumption;

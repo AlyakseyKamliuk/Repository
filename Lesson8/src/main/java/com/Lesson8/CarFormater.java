@@ -1,5 +1,4 @@
 package com.Lesson8;
-
 import com.Lesson8.Format.CSVFormatterReader;
 import com.Lesson8.Format.JSONFormatterReader;
 import java.util.ArrayList;
@@ -12,7 +11,6 @@ public class CarFormater {
     public List<Car> createListProducts(String filePath) {
         
                 if (fileExtension(filePath).contains("csv")) {
-
                     CSVFormatterReader csv=new CSVFormatterReader();
                     createListProduct(csv.formaterTo(filePath));
                 }
@@ -29,12 +27,10 @@ public class CarFormater {
         }
     }
 
-    
-
     private Car createNewProduct(String[] mas) {
         Car car = null;
         if (mas == null) return car;
-        car = new Car(mas[3].charAt(0), Double.parseDouble(mas[4]), Double.parseDouble(mas[0]), mas[1],mas[2]);
+        car = new Car(mas[1].charAt(0), Double.parseDouble(mas[0]), Double.parseDouble(mas[2]), mas[3],mas[4]);
         return car;
     }
     

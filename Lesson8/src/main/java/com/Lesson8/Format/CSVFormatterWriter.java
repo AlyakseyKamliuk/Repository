@@ -14,9 +14,9 @@ public class CSVFormatterWriter implements FormatterWriter {
 
     public void fileWriteTo(Object o, String filePath) {
         String nameClass = "";
+        Method m[]=o.getClass().getMethods();
         for (Method method : o.getClass().getMethods()) {
             if (method.getName().contains("get")) {
-
                 try {
                     if (nameClass.length()!=0) nameClass+=";";
                     nameClass = nameClass + method.invoke(o);
