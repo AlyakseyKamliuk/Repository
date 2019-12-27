@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class AlArrayList <T> {
     private Object[] elements = new Object[8];
     private int enumerator = 0;
-
     public AlArrayList(Object... parametr) {
         for (int i = 0; i < parametr.length; i++) {
             add((T) parametr[i]);
@@ -25,7 +24,7 @@ public class AlArrayList <T> {
         Object[] tmp = new Object[elements.length];
         enumerator--;
         System.arraycopy(elements,0,tmp,0,index);
-        System.arraycopy(elements,index+1,tmp,index,5);
+        System.arraycopy(elements,index+1,tmp,index,(elements.length-(index+1)));
         elements = tmp;
     }
 

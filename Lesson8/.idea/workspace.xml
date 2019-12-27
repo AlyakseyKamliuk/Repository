@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801719d9-50b3-49d7-9467-35e805b6887c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lesson8/Proverka.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList$Element.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/AlLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/out/production/main/com/Lesson9/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson9/src/main/java/com/Lesson9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson9/src/main/java/com/Lesson9/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7dfd3de-0e0b-4da2-a8e7-acd5d1ade98a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,15 +10,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
+    <option name="y" value="-5" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
-  <component name="ProjectId" id="1VFTItjTDwOf0oeRw4rfg2bc9ti" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1VGJBLAKTqrfv5t9OSqmnpz0hIe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,114 +28,49 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577062724319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.Lesson8.Format" />
-      <recent name="com.Lesson8" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\idea\IdeaProjects\Repository\Lesson8" />
+      <recent name="H:\idea\IdeaProjects\TestProject\Lesson8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CSVFormatterReaderTest">
-    <configuration name="CSVFormatterReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Lesson8">
+    <configuration name="Lesson10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Lesson10" />
       <module name="Lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Lesson8.Format.*" />
+          <option name="PATTERN" value="lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Lesson8.Format" />
-      <option name="MAIN_CLASS_NAME" value="com.Lesson8.Format.CSVFormatterReaderTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVFormatterReaderTest.checkingForBlankFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Lesson8" />
       <module name="Lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Lesson8.Format.*" />
+          <option name="PATTERN" value="lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Lesson8.Format" />
-      <option name="MAIN_CLASS_NAME" value="com.Lesson8.Format.CSVFormatterReaderTest" />
-      <option name="METHOD_NAME" value="checkingForBlankFields" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVFormatterReaderTest.checkingTheNumberFieldsRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Lesson8.Format.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Lesson8.Format" />
-      <option name="MAIN_CLASS_NAME" value="com.Lesson8.Format.CSVFormatterReaderTest" />
-      <option name="METHOD_NAME" value="checkingTheNumberFieldsRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVFormatterReaderTest.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Lesson8.Format.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Lesson8.Format" />
-      <option name="MAIN_CLASS_NAME" value="com.Lesson8.Format.CSVFormatterReaderTest" />
-      <option name="METHOD_NAME" value="testA" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVFormatterReaderTest.testB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Lesson8.Format.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Lesson8.Format" />
-      <option name="MAIN_CLASS_NAME" value="com.Lesson8.Format.CSVFormatterReaderTest" />
-      <option name="METHOD_NAME" value="testB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Lesson10" />
+      <item itemvalue="Application.Lesson8" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CSVFormatterReaderTest" />
-        <item itemvalue="JUnit.CSVFormatterReaderTest.testB" />
-        <item itemvalue="JUnit.CSVFormatterReaderTest.checkingForBlankFields" />
-        <item itemvalue="JUnit.CSVFormatterReaderTest.checkingTheNumberFieldsRead" />
-        <item itemvalue="JUnit.CSVFormatterReaderTest.testA" />
+        <item itemvalue="Application.Lesson8" />
+        <item itemvalue="Application.Lesson10" />
       </list>
     </recent_temporary>
   </component>
@@ -161,77 +91,73 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="801719d9-50b3-49d7-9467-35e805b6887c" name="Default Changelist" comment="" />
-      <created>1576847766616</created>
+      <changelist id="d7dfd3de-0e0b-4da2-a8e7-acd5d1ade98a" name="Default Changelist" comment="" />
+      <created>1576873361373</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576847766616</updated>
+      <updated>1576873361373</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="355" y="35" key="#Project_Structure" timestamp="1576848768941">
+    <state x="410" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576873426775">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="355" y="35" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1576848768941" />
-    <state x="637" y="180" key="FileChooserDialogImpl" timestamp="1576853922835">
+    <state x="410" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576873426775" />
+    <state x="637" y="180" key="FileChooserDialogImpl" timestamp="1577364503457">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="637" y="180" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576853922835" />
-    <state width="1856" height="327" key="GridCell.Tab.0.bottom" timestamp="1576852596120">
+    <state x="637" y="180" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1577364503457" />
+    <state width="1856" height="327" key="GridCell.Tab.0.bottom" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596120" />
-    <state width="1856" height="327" key="GridCell.Tab.0.center" timestamp="1576852596119">
+    <state width="1856" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state width="1856" height="327" key="GridCell.Tab.0.center" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596119" />
-    <state width="1856" height="327" key="GridCell.Tab.0.left" timestamp="1576852596119">
+    <state width="1856" height="327" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state width="1856" height="327" key="GridCell.Tab.0.left" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596119" />
-    <state width="1856" height="327" key="GridCell.Tab.0.right" timestamp="1576852596119">
+    <state width="1856" height="327" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state width="1856" height="327" key="GridCell.Tab.0.right" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596119" />
-    <state width="1856" height="327" key="GridCell.Tab.1.bottom" timestamp="1576852596120">
+    <state width="1856" height="327" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state width="1856" height="327" key="GridCell.Tab.1.bottom" timestamp="1577311645784">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596120" />
-    <state width="1856" height="327" key="GridCell.Tab.1.center" timestamp="1576852596120">
+    <state width="1856" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645784" />
+    <state width="1856" height="327" key="GridCell.Tab.1.center" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596120" />
-    <state width="1856" height="327" key="GridCell.Tab.1.left" timestamp="1576852596120">
+    <state width="1856" height="327" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state width="1856" height="327" key="GridCell.Tab.1.left" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596120" />
-    <state width="1856" height="327" key="GridCell.Tab.1.right" timestamp="1576852596120">
+    <state width="1856" height="327" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state width="1856" height="327" key="GridCell.Tab.1.right" timestamp="1577311645783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1856" height="327" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576852596120" />
-    <state x="239" y="0" key="SettingsEditor" timestamp="1576849042286">
+    <state width="1856" height="327" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1577311645783" />
+    <state x="522" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1577364334218">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="239" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1576849042286" />
-    <state x="522" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1576853909988">
+    <state x="522" y="285" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577364334218" />
+    <state x="76" y="0" key="new project wizard" timestamp="1577364519869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="522" y="285" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576853909988" />
-    <state x="705" y="100" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576848671390">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="705" y="100" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576848671390" />
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1576848220126">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576848220126" />
+    <state x="76" y="0" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1577364519869" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="mas" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson8/Format/CSVFormatterWriter.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
