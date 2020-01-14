@@ -1,10 +1,10 @@
 
 public class Product implements Comparable{
-    private int id;
-    private double price;
+    private Integer id;
+    private Double price;
     private String name;
 
-    public Product(int id, double sumProduct, String nameProduct) {
+    public Product(Integer id, Double sumProduct, String nameProduct) {
         try {
             this.id = id;
             this.price = sumProduct;
@@ -14,30 +14,29 @@ public class Product implements Comparable{
         }
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public double getPriceProduct() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPriceProduct(double priceProduct) {
-        this.price = priceProduct;
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
-    public String getNameProduct() {
+    public String getName() {
         return name;
     }
 
-    public void setNameProduct(String nameProduct) {
-        this.name = nameProduct;
+    public void setName(String name) {
+        this.name = name;
     }
-
 
     public String toString() {
         return "\""+this.getClass().getName().substring(this.getClass().getName().lastIndexOf(".")+1)+"\""+",{" +
@@ -61,7 +60,7 @@ public class Product implements Comparable{
         Product product = (Product) o;
 
         if (getId() != product.getId()) return false;
-        if (Double.compare(product.getPriceProduct(), getPriceProduct()) != 0) return false;
+        if (Double.compare(product.getPrice(), getPrice()) != 0) return false;
         return true;
     }
 
@@ -70,14 +69,14 @@ public class Product implements Comparable{
         int result;
         long temp;
         result = getId();
-        temp = Double.doubleToLongBits(getPriceProduct());
+        temp = Double.doubleToLongBits(getPrice());
         result = 31 * result + (int) (temp ^ (temp >>> 32));
-        result = 31 * result + getNameProduct().hashCode();
+        result = 31 * result + getName().hashCode();
         return result;
     }
 
     @Override
     public int compareTo(Object o) {
-        return Double.compare(getPriceProduct(), ((Product)o).getPriceProduct());
+        return Double.compare(getPrice(), ((Product)o).getPrice());
     }
 }
