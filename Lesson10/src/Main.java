@@ -7,8 +7,8 @@ public class Main {
 
         Recursion recursion = new Recursion();
         recursion.oneToN(8);
-        recursion.sumN(73564);
-        System.out.println(recursion.isPalindrome("abacddcaba"));
+        recursion.sumN(7506);
+        System.out.println(recursion.isPalindrome("cbbc"));
         ArrayList<Product> products = new ArrayList<>();
         products.add(new Product(1, 10.0, "Product"));
         products.add(new Product(1, 1.0, "Product"));

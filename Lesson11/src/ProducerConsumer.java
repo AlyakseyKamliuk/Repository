@@ -1,11 +1,11 @@
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;
 
 
 public class ProducerConsumer {
 
-    static ArrayList<String> queue = new ArrayList<>();
+    static LinkedList<String> queue = new LinkedList<>();
 
     public static void main(String[] args) {
         Collections.synchronizedCollection(queue);
@@ -13,16 +13,15 @@ public class ProducerConsumer {
         Runnable myConsumer=()->{
                         while (true) {
                         if (queue.size()==0) continue;
-                        System.out.println("Take " + queue.get(queue.size() - 1));
+                        System.out.println("Take " + queue.getLast());
                     }
         };
         Runnable myProducer=()->{
             while (true) {
                 System.out.println("Add");
-                queue.add("String");
+                queue.addFirst("String");
             }
         };
-
 
         Thread consumer=new Thread(myConsumer);
         Thread producer=new Thread(myProducer);
