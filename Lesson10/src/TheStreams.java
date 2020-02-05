@@ -1,8 +1,8 @@
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class TheStreams {
-
     public List<String> reverseProductName(ArrayList<Product> products) {
         return products.stream()
                 .map(p -> new StringBuilder(p.getName()).reverse().toString())
@@ -14,11 +14,11 @@ public class TheStreams {
                 .map(p -> p.getName())
                 .sorted(String::compareTo)
                 .collect(Collectors.toList());
-
     }
 
 
     public List<Product> sortedPrice(ArrayList<Product> products) {
+
         return products.stream()
                 .sorted((o1, o2) -> -Double.compare(o1.getPrice(), o2.getPrice()))
                 .skip(5)

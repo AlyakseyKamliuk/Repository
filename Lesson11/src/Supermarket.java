@@ -1,15 +1,20 @@
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.function.Supplier;
+import java.util.regex.Matcher;
+
 
 public class Supermarket {
     public static volatile int COUNTER_OF_COMPLETED_PROCESSES = 0;
     public static final int COUNTER_PROCESSES = 10;
-
-
+    
     static ArrayList<String> resultList = new ArrayList<>();
+    final ArrayList<String> resultList1 = new ArrayList<>();
+
 
     public static void main(String[] args) throws InterruptedException {
+        Supermarket.
         int countPeople=0;
         ArrayList<ConcurrentLinkedQueue<String>> queues = new ArrayList<>();
         for (int i = 0; i < COUNTER_PROCESSES; i++) {
@@ -17,6 +22,7 @@ public class Supermarket {
             for (int j = 0; j < 100_000; j++) {
                 queues.get(i).add("UserName " + (j + 1));
                 countPeople++;
+
             }
         }
         long time = System.currentTimeMillis();
@@ -33,6 +39,7 @@ public class Supermarket {
         long time2 = System.currentTimeMillis();
         System.out.println("На обработку потребовалось " + (time2 - time) + "мс");
         System.out.println(COUNTER_OF_COMPLETED_PROCESSES);
+
 
     }
 
@@ -51,10 +58,7 @@ public class Supermarket {
             String name = "";
             while (COUNTER_OF_COMPLETED_PROCESSES < countPeople) {
                 i = ThreadLocalRandom.current().nextInt(quares.size());
-
-                synchronized (quares.get(i)) {
                     name = quares.get(i).poll();
-                }
 
                 if (name != null) {
                     synchronized (resultList) {
