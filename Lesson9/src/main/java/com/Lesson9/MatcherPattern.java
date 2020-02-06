@@ -36,7 +36,7 @@ public class MatcherPattern {
     }
 
     public void searchDate(String s){
-        String shablon="\\d{4}:(0|1)\\d:([0-2]\\d|3[0-1]) ((0|1)\\d|2[0-3]):((0|1)\\d|2[0-3])";
+            String shablon="\\d{4}:(0|1)\\d:([0-2]\\d|3[0-1]) ((0|1)\\d|2[0-3]):((0|1)\\d|2[0-3])";
         Pattern pattern=Pattern.compile(shablon);
         Matcher matcher=pattern.matcher(s);
         while (matcher.find()){

@@ -1,17 +1,17 @@
 package SkyNet.Command;
 
-import SkyNet.BotMessage;
+import SkyNet.BotMessageRepository;
 
 public class RandomMessage implements Command {
 
-    BotMessage botMessage=null;
+    BotMessageRepository botMessageRepository =null;
 
-    public RandomMessage(BotMessage botMessage) {
-        this.botMessage = botMessage;
+    public RandomMessage(BotMessageRepository botMessageRepository) {
+        this.botMessageRepository = botMessageRepository;
     }
 
     @Override
     public String execute() {
-       return botMessage.getMessage(true,0);
+       return botMessageRepository.getMessage(true,0);
     }
 }

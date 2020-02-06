@@ -1,16 +1,16 @@
 package SkyNet.Command;
 
-import SkyNet.BotMessage;
+import SkyNet.BotMessageRepository;
 
 public class NextMessage implements Command {
-    BotMessage botMessage=null;
+    BotMessageRepository botMessageRepository =null;
 
-    public NextMessage(BotMessage botMessage) {
-        this.botMessage = botMessage;
+    public NextMessage(BotMessageRepository botMessageRepository) {
+        this.botMessageRepository = botMessageRepository;
     }
 
     @Override
     public String execute() {
-      return botMessage.next();
+      return botMessageRepository.next();
     }
 }

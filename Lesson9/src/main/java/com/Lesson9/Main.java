@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-       AlArrayList<Integer> alArrayList = new AlArrayList<>();
+       AlArrayList<Integer> alArrayList = new AlArrayList<Integer>();
         alArrayList.add(1);
         alArrayList.add(2);
         alArrayList.add(3);

@@ -92,3 +92,306 @@ The object is already closed [90007-200]
 2020-02-05 18:03:18 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
 The object is already closed [90007-200]
+2020-02-05 23:04:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных открыта в эксклюзивном режиме, открыть дополнительные соединения невозможно
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.setCurrentCommand(Session.java:1343)
+	at org.h2.engine.Session.endStatement(Session.java:1887)
+	at org.h2.command.Command.executeQuery(Command.java:227)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:47)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:58)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:34)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:45)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-05 23:16:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных открыта в эксклюзивном режиме, открыть дополнительные соединения невозможно
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.setCurrentCommand(Session.java:1343)
+	at org.h2.engine.Session.endStatement(Session.java:1887)
+	at org.h2.command.Command.executeQuery(Command.java:227)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:47)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:62)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-05 23:42:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных открыта в эксклюзивном режиме, открыть дополнительные соединения невозможно
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.setCurrentCommand(Session.java:1343)
+	at org.h2.engine.Session.endStatement(Session.java:1887)
+	at org.h2.command.Command.executeQuery(Command.java:227)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:49)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:62)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 04:01:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных открыта в эксклюзивном режиме, открыть дополнительные соединения невозможно
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.setCurrentCommand(Session.java:1343)
+	at org.h2.engine.Session.endStatement(Session.java:1887)
+	at org.h2.command.Command.executeQuery(Command.java:227)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:55)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:62)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:36)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:23:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "AUTHOR" не найден
+Column "AUTHOR" not found; SQL statement:
+SELECT message, author FROM authorsMessages WHERE author LIKE '%1%' OR message LIKE '%1%' [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Select.prepare(Select.java:1206)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:59)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:65)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:30:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "AUTHORS.NAME" не найден
+Column "AUTHORS.NAME" not found; SQL statement:
+SELECT authorsMessages.message, authors.name FROM authorsMessages WHERE authors.name LIKE '%Цицерон%' OR authorsMessages.message LIKE '%Цицерон%' [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Select.prepare(Select.java:1206)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:59)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:65)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:33:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных открыта в эксклюзивном режиме, открыть дополнительные соединения невозможно
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.setCurrentCommand(Session.java:1343)
+	at org.h2.engine.Session.endStatement(Session.java:1887)
+	at org.h2.command.Command.executeQuery(Command.java:227)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:91)
+	at SkyNet.Command.RandomMessage.execute(RandomMessage.java:15)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:63)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:33:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:265)
+	at SkyNet.BotMessageRepository.getSize(BotMessageRepository.java:15)
+	at SkyNet.BotMessageRepository.hasNext(BotMessageRepository.java:39)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:47)
+	at SkyNet.Command.NextMessage.execute(NextMessage.java:14)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:63)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:33:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:265)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:48)
+	at SkyNet.Command.NextMessage.execute(NextMessage.java:14)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:63)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:38:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcStatement.checkClosed(JdbcStatement.java:1211)
+	at org.h2.jdbc.JdbcStatement.checkClosed(JdbcStatement.java:1185)
+	at org.h2.jdbc.JdbcResultSet.checkClosed(JdbcResultSet.java:3226)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3210)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:61)
+	at SkyNet.BotSkyNet.doCommand(BotSkyNet.java:65)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:38)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-06 16:55:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT AUTHORSMESSAGES.MESSAGE, AUTHORS.NAME FROM AUTHORSMESSAGES, AUTHORS WHERE AUTHORS.NAME LIKE '%Пушкин%' AND AUTHORS.ID LIKE AUTHORSMESSAGES.AUTHORIDOR AUTHORSMESSAGES[*].MESSAGE LIKE '%Пушкин%' AND AUTHORS.ID LIKE AUTHORSMESSAGES.AUTHORID"
+Syntax error in SQL statement "SELECT AUTHORSMESSAGES.MESSAGE, AUTHORS.NAME FROM AUTHORSMESSAGES, AUTHORS WHERE AUTHORS.NAME LIKE '%Пушкин%' AND AUTHORS.ID LIKE AUTHORSMESSAGES.AUTHORIDOR AUTHORSMESSAGES[*].MESSAGE LIKE '%Пушкин%' AND AUTHORS.ID LIKE AUTHORSMESSAGES.AUTHORID"; SQL statement:
+SELECT authorsMessages.message, authors.name FROM authorsMessages, authors WHERE authors.name LIKE '%Пушкин%' AND authors.id LIKE authorsMessages.authorIDOR authorsMessages.message LIKE '%Пушкин%' AND authors.id LIKE authorsMessages.authorID [42000-200]
+2020-02-06 16:55:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT AUTHORSMESSAGES.MESSAGE, AUTHORS.NAME FROM AUTHORSMESSAGES, AUTHORS WHERE AUTHORS.NAME LIKE '%Пушкин%' AND AUTHORS.ID LIKE AUTHORSMESSAGES.AUTHORIDOR AUTHORSMESSAGES[*].MESSAGE LIKE '%Пушкин%'"
+Syntax error in SQL statement "SELECT AUTHORSMESSAGES.MESSAGE, AUTHORS.NAME FROM AUTHORSMESSAGES, AUTHORS WHERE AUTHORS.NAME LIKE '%Пушкин%' AND AUTHORS.ID LIKE AUTHORSMESSAGES.AUTHORIDOR AUTHORSMESSAGES[*].MESSAGE LIKE '%Пушкин%'"; SQL statement:
+SELECT authorsMessages.message, authors.name FROM authorsMessages, authors WHERE authors.name LIKE '%Пушкин%' AND authors.id LIKE authorsMessages.authorIDOR authorsMessages.message LIKE '%Пушкин%' [42000-200]
+2020-02-06 17:09:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHORSMESSAGE" не найдена
+Table "AUTHORSMESSAGE" not found; SQL statement:
+select authorsMessages.message, authors.name from authorsMessage inner join authors ON authors.id=authorsMessages.authorID where authors.name LIKE (%'человек'%) OR authorsMessage LIKE (%'человек'%) [42102-200]
+2020-02-06 17:09:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT AUTHORSMESSAGES.MESSAGE, AUTHORS.NAME FROM AUTHORSMESSAGES INNER JOIN AUTHORS ON AUTHORS.ID=AUTHORSMESSAGES.AUTHORID WHERE AUTHORS.NAME LIKE (%[*]'человек'%) OR AUTHORSMESSAGES LIKE (%'человек'%)"; ожидалось "), NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT AUTHORSMESSAGES.MESSAGE, AUTHORS.NAME FROM AUTHORSMESSAGES INNER JOIN AUTHORS ON AUTHORS.ID=AUTHORSMESSAGES.AUTHORID WHERE AUTHORS.NAME LIKE (%[*]'человек'%) OR AUTHORSMESSAGES LIKE (%'человек'%)"; expected "), NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+select authorsMessages.message, authors.name from authorsMessages inner join authors ON authors.id=authorsMessages.authorID where authors.name LIKE (%'человек'%) OR authorsMessages LIKE (%'человек'%) [42001-200]
+2020-02-06 17:14:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHORSMESSAGE" не найдена
+Table "AUTHORSMESSAGE" not found; SQL statement:
+select authorsMessages.message, authors.name from authorsMessage inner join authors ON authors.id=authorsMessages.authorID where authors.name LIKE '%человек%' OR authorsMessage LIKE '%человек%' [42102-200]
+2020-02-06 17:15:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "AUTHORSMESSAGE" не найден
+Column "AUTHORSMESSAGE" not found; SQL statement:
+select authorsMessages.message, authors.name from authorsMessages inner join authors ON authors.id=authorsMessages.authorID where authors.name LIKE '%человек%' OR authorsMessage LIKE '%человек%' [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.CompareLike.optimize(CompareLike.java:102)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:136)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:135)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:53)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:29)
+2020-02-06 17:15:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "AUTHORSMESSAGES" не найден
+Column "AUTHORSMESSAGES" not found; SQL statement:
+select authorsMessages.message, authors.name from authorsMessages inner join authors ON authors.id=authorsMessages.authorID where authors.name LIKE '%человек%' OR authorsMessages LIKE '%человек%' [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.CompareLike.optimize(CompareLike.java:102)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:136)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:135)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at SkyNet.BotMessageRepository.thisIsAuthorOrMessage(BotMessageRepository.java:53)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:29)
+2020-02-06 17:36:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "AUTHORS" не найден
+Column "AUTHORS" not found; SQL statement:
+SELECT authors.id FROM authors WHERE authors LIKE 'И Сталин ' [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.CompareLike.optimize(CompareLike.java:102)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at SkyNet.BotMessageRepository.addAuthorMessageToBase(BotMessageRepository.java:82)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:41)
+2020-02-06 17:36:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO authors(id,name) values (1028,[*]'И Сталин 
+)"
+Syntax error in SQL statement "INSERT INTO authors(id,name) values (1028,[*]'И Сталин 
+)"; SQL statement:
+INSERT INTO authors(id,name) values (1028,'И Сталин 
+) [42000-200]

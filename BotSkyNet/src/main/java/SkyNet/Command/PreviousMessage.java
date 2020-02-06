@@ -1,16 +1,16 @@
 package SkyNet.Command;
 
-import SkyNet.BotMessage;
+import SkyNet.BotMessageRepository;
 
 public class PreviousMessage implements Command {
-    BotMessage botMessage=null;
+    BotMessageRepository botMessageRepository =null;
 
-    public PreviousMessage(BotMessage botMessage) {
-        this.botMessage = botMessage;
+    public PreviousMessage(BotMessageRepository botMessageRepository) {
+        this.botMessageRepository = botMessageRepository;
     }
 
     @Override
     public String execute() {
-        return botMessage.previous();
+        return botMessageRepository.previous();
     }
 }
