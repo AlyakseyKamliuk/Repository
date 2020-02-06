@@ -8,6 +8,7 @@ import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardButto
 import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -30,13 +31,10 @@ public class BotSkyNet extends TelegramLongPollingBot {
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(chatId);
         String message = update.getMessage().getText();
-        if ((chatId.contains("954767511")) && (message.contains("/add -author=")) && (message.contains("-message="))) {
-            message = doCommand(botMessageRepository.addAuthorMessageToBase(message));
-            sendMessage.setText(message);
-        } else {
-            message=doCommand(message);
-            sendMessage.setText(message);
-        }
+
+        message = doCommand(chatId, message);
+        sendMessage.setText(message);
+
         setButtons(sendMessage);
         try {
             sendMessage(sendMessage);
@@ -58,11 +56,18 @@ public class BotSkyNet extends TelegramLongPollingBot {
         return "1003040463:AAEq4LnIrCYKMEyru-Tid0fY90cFNxc4Pas";
     }
 
-    private String doCommand(String message) {
+    private String doCommand(String chatId, String message) {
+        String messageTmp="";
         if (map.containsKey(message)) {
             return map.get(message).execute();
         } else {
-            return botMessageRepository.thisIsAuthorOrMessage(message);
+            if ((chatId.contains("954767511")) && (message.contains("/add -author=")) && (message.contains("-message="))) {
+                map.put("Save", new SaveMessage(botMessageRepository, message));
+                messageTmp=map.get("Save").execute();
+                map.remove("Save");
+                return botMessageRepository.findMessage(messageTmp);
+            }
+            return botMessageRepository.findMessage(message);
         }
     }
 

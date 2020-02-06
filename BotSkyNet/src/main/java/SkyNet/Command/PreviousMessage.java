@@ -3,7 +3,7 @@ package SkyNet.Command;
 import SkyNet.BotMessageRepository;
 
 public class PreviousMessage implements Command {
-    BotMessageRepository botMessageRepository =null;
+    private BotMessageRepository botMessageRepository =null;
 
     public PreviousMessage(BotMessageRepository botMessageRepository) {
         this.botMessageRepository = botMessageRepository;

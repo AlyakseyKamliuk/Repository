@@ -4,7 +4,7 @@ import SkyNet.BotMessageRepository;
 
 public class RandomMessage implements Command {
 
-    BotMessageRepository botMessageRepository =null;
+    private BotMessageRepository botMessageRepository =null;
 
     public RandomMessage(BotMessageRepository botMessageRepository) {
         this.botMessageRepository = botMessageRepository;

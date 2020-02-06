@@ -3,7 +3,6 @@ package SkyNet;
 import java.io.Closeable;
 import java.io.IOException;
 import java.sql.*;
-import java.util.*;
 
 public class BotMessageRepository implements Closeable {
 
@@ -36,12 +35,6 @@ public class BotMessageRepository implements Closeable {
         return size;
     }
 
-    public static void main(String[] args) {
-        BotMessageRepository botMessageRepository=new BotMessageRepository();
-        botMessageRepository.addAuthorMessageToBase("/add -author=И Сталин -message=Нужно быть очень смелым человеком, чтобы быть трусом в Советской Армии.");
-        System.out.println(botMessageRepository.thisIsAuthorOrMessage("Сталин"));
-    }
-
     private boolean hasNext() {
         return indexMessage != getSize();
     }
@@ -60,7 +53,7 @@ public class BotMessageRepository implements Closeable {
         return getMessage(false, indexMessage);
     }
 
-    public String thisIsAuthorOrMessage(String message) {
+    public String findMessage(String message) {
         String tmp = "";
         try (Statement statement = connection.createStatement();
              ResultSet resultSet1 = statement.executeQuery("SELECT authorsMessages.message, authors.name FROM authorsMessages INNER JOIN authors ON authors.id=authorsMessages.authorID WHERE authors.name LIKE '%"+message+"%' OR authorsMessages.message LIKE '%"+message+"%'")) {
@@ -73,7 +66,7 @@ public class BotMessageRepository implements Closeable {
         return tmp;
     }
 
-    public String addAuthorMessageToBase(String command) {
+    public String saveMessage(String command) {
         String[] tmp = command.replaceAll("/add -author=", "=").replaceAll("-message=", "=").split("=");
         String author = tmp[1];
         String message = tmp[2];
@@ -97,27 +90,37 @@ public class BotMessageRepository implements Closeable {
     public String getMessage(boolean random, int indexMessage) {
         String message = "";
         if (random) {
-            ResultSet resultSet1 = null;
-            try (Statement statement = connection.createStatement();
-                 ResultSet resultSet = statement.executeQuery("SELECT authorsMessages.message, authors.name, authorsMessages.id FROM authors, authorsMessages WHERE authors.id LIKE authorsMessages.authorID ORDER BY RAND() LIMIT 1")) {
-                while (resultSet.next()) {
-                    message = resultSet.getString(1) + resultSet.getString(2);
-                    this.indexMessage = resultSet.getInt(3);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            message=getRandomMessage();
         } else {
-            this.indexMessage = indexMessage;
+         message=getIndexMessage(indexMessage);
+        }
+        return message;
+    }
 
-            try (Statement statement = connection.createStatement();
-                 ResultSet resultSet1 = statement.executeQuery("SELECT authorsMessages.message, authors.name FROM authors, authorsMessages WHERE authorsMessages.id LIKE '" + this.indexMessage + "' AND authors.id LIKE authorsMessages.authorID")) {
-                while (resultSet1.next()) {
-                    message = resultSet1.getString(1) + resultSet1.getString(2);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
+    private String getRandomMessage(){
+        String message = "";
+        try (Statement statement = connection.createStatement();
+             ResultSet resultSet = statement.executeQuery("SELECT authorsMessages.message, authors.name, authorsMessages.id FROM authors, authorsMessages WHERE authors.id LIKE authorsMessages.authorID ORDER BY RAND() LIMIT 1")) {
+            while (resultSet.next()) {
+                message = resultSet.getString(1) + resultSet.getString(2);
+                this.indexMessage = resultSet.getInt(3);
             }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return message;
+    }
+    private String getIndexMessage(int indexMessage){
+        String message = "";
+        this.indexMessage = indexMessage;
+
+        try (Statement statement = connection.createStatement();
+             ResultSet resultSet1 = statement.executeQuery("SELECT authorsMessages.message, authors.name FROM authors, authorsMessages WHERE authorsMessages.id LIKE '" + this.indexMessage + "' AND authors.id LIKE authorsMessages.authorID")) {
+            while (resultSet1.next()) {
+                message = resultSet1.getString(1) + resultSet1.getString(2);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
         return message;
     }
