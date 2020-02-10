@@ -1,67 +1,25 @@
 package SkyNet;
+import java.util.ArrayList;
 
-import java.io.Closeable;
-import java.io.IOException;
-import java.sql.*;
-
-public class BotMessageRepository implements Closeable {
-
-    private Connection connection = createConnection();
+public class BotMessageRepository {
     private int indexMessage = 0;
+    private SQLConnection sqlConnection=new SQLConnection();
 
-    private int getSize() {
-        int size = 0;
-        try (Statement statement = connection.createStatement();
-             ResultSet resultSet = statement.executeQuery("SELECT count(*) FROM authorsMessages")) {
-            while (resultSet.next()) {
-                size = resultSet.getInt(1);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return size;
-    }
-
-    private int getSizeAuthors() {
-        int size = 0;
-        try (Statement statement = connection.createStatement();
-             ResultSet resultSet = statement.executeQuery("SELECT count(*) FROM authors")) {
-            while (resultSet.next()) {
-                size = resultSet.getInt(1);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return size;
-    }
-
-    private boolean hasNext() {
-        return indexMessage != getSize();
-    }
-
-    private boolean hasPrevious() {
-        return indexMessage > 2;
-    }
 
     public String next() {
-        indexMessage = hasNext() ? ++indexMessage : 0;
-        return getMessage(false, indexMessage);
+      return getMessage(false, ++indexMessage);
     }
 
     public String previous() {
-        indexMessage = hasPrevious() ? --indexMessage : getSize() - 1;
-        return getMessage(false, indexMessage);
+      return getMessage(false, --indexMessage);
     }
 
     public String findMessage(String message) {
         String tmp = "";
-        try (Statement statement = connection.createStatement();
-             ResultSet resultSet1 = statement.executeQuery("SELECT authorsMessages.message, authors.name FROM authorsMessages INNER JOIN authors ON authors.id=authorsMessages.authorID WHERE authors.name LIKE '%"+message+"%' OR authorsMessages.message LIKE '%"+message+"%'")) {
-            while (resultSet1.next()) {
-                tmp += resultSet1.getString(1) + resultSet1.getString(2);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
+        ArrayList<String> result;
+        result = sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name FROM authorsMessages INNER JOIN authors ON authors.id=authorsMessages.authorID WHERE authors.name LIKE '%" + message + "%' OR authorsMessages.message LIKE '%" + message + "%'");
+        for (int i = 0; i < result.size(); i++) {
+            tmp+=result.get(i);
         }
         return tmp;
     }
@@ -70,80 +28,39 @@ public class BotMessageRepository implements Closeable {
         String[] tmp = command.replaceAll("/add -author=", "=").replaceAll("-message=", "=").split("=");
         String author = tmp[1];
         String message = tmp[2];
-        int authorID=-1;
-        try (Statement statement = connection.createStatement()) {
-            ResultSet resultSet=statement.executeQuery("SELECT authors.id FROM authors WHERE authors.name LIKE '"+author+"'");
-            while (resultSet.next()) {
-                authorID = resultSet.getInt(1) ;
-            }
-            if (authorID==-1)  {authorID=getSizeAuthors() + 1;
-                statement.execute("INSERT INTO authors(id,name) values (" + authorID + ",'" + author + "\n')");
-            }
-            statement.execute("INSERT INTO authorsMessages(id,authorID,message) values (" + (getSize() + 1) + "," + authorID + ",'" + message + "\n')");
-        } catch (SQLException e) {
-            e.printStackTrace();
+        int authorID = 0;
+        ArrayList<String> arrayList;
+        arrayList = sqlConnection.executeQuery("SELECT authors.id FROM authors WHERE authors.name LIKE '" + author + "'");
+        authorID = arrayList.size()!=0?Integer.parseInt(arrayList.get(0)):-1;
+        if (authorID == -1) {
+            authorID = getSizeAuthors() + 1;
+            sqlConnection.execute("INSERT INTO authors(id,name) values (" + authorID + ",'" + author + "\n')");
         }
-
+        sqlConnection.execute("INSERT INTO authorsMessages(id,authorID,message) values (" + (getSize() + 1) + "," + authorID + ",'" + message + "\n')");
         return author;
     }
 
     public String getMessage(boolean random, int indexMessage) {
-        String message = "";
-        if (random) {
-            message=getRandomMessage();
-        } else {
-         message=getIndexMessage(indexMessage);
-        }
-        return message;
+        return random ? getRandomMessage() : getIndexMessage(indexMessage);
     }
 
-    private String getRandomMessage(){
-        String message = "";
-        try (Statement statement = connection.createStatement();
-             ResultSet resultSet = statement.executeQuery("SELECT authorsMessages.message, authors.name, authorsMessages.id FROM authors, authorsMessages WHERE authors.id LIKE authorsMessages.authorID ORDER BY RAND() LIMIT 1")) {
-            while (resultSet.next()) {
-                message = resultSet.getString(1) + resultSet.getString(2);
-                this.indexMessage = resultSet.getInt(3);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return message;
+    private String getRandomMessage() {
+        ArrayList<String> listMessage=sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name, authorsMessages.id FROM authors, authorsMessages WHERE authors.id LIKE authorsMessages.authorID ORDER BY RAND() LIMIT 1");
+        indexMessage=Integer.parseInt(listMessage.get(2));
+        return listMessage.size()!=0?listMessage.get(0)+listMessage.get(1):"Нет данных!";
     }
-    private String getIndexMessage(int indexMessage){
-        String message = "";
+
+    private String getIndexMessage(int indexMessage) {
         this.indexMessage = indexMessage;
-
-        try (Statement statement = connection.createStatement();
-             ResultSet resultSet1 = statement.executeQuery("SELECT authorsMessages.message, authors.name FROM authors, authorsMessages WHERE authorsMessages.id LIKE '" + this.indexMessage + "' AND authors.id LIKE authorsMessages.authorID")) {
-            while (resultSet1.next()) {
-                message = resultSet1.getString(1) + resultSet1.getString(2);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return message;
+        ArrayList<String> listMessage=sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name FROM authors, authorsMessages WHERE authorsMessages.id LIKE '" + this.indexMessage + "' AND authors.id LIKE authorsMessages.authorID");
+        return listMessage.size()!=0?listMessage.get(0)+listMessage.get(1):"Нет данных!";
     }
 
-    private Connection createConnection() {
-        String dataBasePath = ClassLoader.getSystemClassLoader().getResource("test.mv.db").getFile();
-        Connection connection = null;
-        try {
-            connection = DriverManager.getConnection("jdbc:h2:" + dataBasePath, "sa", "");
-            return connection;
-        } catch (
-                SQLException e) {
-            e.printStackTrace();
-        }
-        return null;
+    private int getSize() {
+        return Integer.parseInt(sqlConnection.executeQuery("SELECT count(*) FROM authorsMessages").get(0));
     }
 
-    @Override
-    public void close() throws IOException {
-        try {
-            connection.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+    private int getSizeAuthors() {
+        return Integer.parseInt(sqlConnection.executeQuery("SELECT count(*) FROM authors").get(0));
     }
 }

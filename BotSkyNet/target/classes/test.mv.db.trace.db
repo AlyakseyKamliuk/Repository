@@ -395,3 +395,1234 @@ Syntax error in SQL statement "INSERT INTO authors(id,name) values (1028,[*]'И 
 )"; SQL statement:
 INSERT INTO authors(id,name) values (1028,'И Сталин 
 ) [42000-200]
+2020-02-10 17:57:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:83)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:105)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:96)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 17:58:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:83)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:105)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:96)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 17:59:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:83)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:105)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:96)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:00:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:84)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:97)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:00:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:84)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:01:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:84)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:97)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:01:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:84)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:07:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:111)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:07:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:07:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:08:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:08:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:08:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:08:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:08:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:08:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:09:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:111)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:09:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:09:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:09:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:09:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:09:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:11:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:11:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:11:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:11:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:11:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:11:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:15:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:15:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:15:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:15:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:15:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:102)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:15:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:15:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:85)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:19:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:108)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:104)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:19:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:19:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:21:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:108)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:104)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:21:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:21:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:21:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:108)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:104)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:21:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:21:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:21:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:115)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:104)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:14)
+2020-02-10 18:21:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:21:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:47)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:25:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:89)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:117)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:25:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:89)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:49)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:16)
+2020-02-10 18:25:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:89)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:49)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:16)
+2020-02-10 18:26:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:89)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:117)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:106)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:26:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:89)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:49)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:16)
+2020-02-10 18:26:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:89)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:49)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:16)
+2020-02-10 18:27:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:79)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:107)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:96)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:27:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:79)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:39)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:16)
+2020-02-10 18:27:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:79)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:39)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:16)
+2020-02-10 18:29:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:81)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:109)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:31:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:81)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:109)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:15)
+2020-02-10 18:31:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "2" для параметра "columnIndex"
+Invalid value "2" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:81)
+	at SkyNet.BotMessageRepository.getSizeAuthors(BotMessageRepository.java:27)
+	at SkyNet.BotMessageRepository.saveMessage(BotMessageRepository.java:57)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:17)
+2020-02-10 18:31:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "2" для параметра "columnIndex"
+Invalid value "2" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:81)
+	at SkyNet.BotMessageRepository.getSize(BotMessageRepository.java:23)
+	at SkyNet.BotMessageRepository.saveMessage(BotMessageRepository.java:60)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:17)
+2020-02-10 18:31:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:81)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:41)
+	at SkyNet.BotMessageRepository.main(BotMessageRepository.java:18)
+2020-02-10 18:38:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:54)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 18:38:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:54)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 18:38:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:20)
+	at SkyNet.ExecutableCommands.lambda$new$2(ExecutableCommands.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:46)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 18:38:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:20)
+	at SkyNet.ExecutableCommands.lambda$new$2(ExecutableCommands.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:46)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 18:38:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.previous(BotMessageRepository.java:24)
+	at SkyNet.ExecutableCommands.lambda$new$3(ExecutableCommands.java:31)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:46)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 18:38:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:20)
+	at SkyNet.ExecutableCommands.lambda$new$2(ExecutableCommands.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:46)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:37:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:91)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.ExecutableCommands.lambda$new$0(ExecutableCommands.java:13)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:37:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:20)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:37:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:98)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:87)
+	at SkyNet.BotMessageRepository.previous(BotMessageRepository.java:24)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:38:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:24)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:38:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.BotMessageRepository.executeQuery(BotMessageRepository.java:70)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:30)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:24)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:56)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.ExecutableCommands.lambda$new$0(ExecutableCommands.java:13)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:63)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:18)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:63)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.BotMessageRepository.previous(BotMessageRepository.java:22)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:63)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.BotMessageRepository.previous(BotMessageRepository.java:22)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:63)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:18)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:63)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.BotMessageRepository.previous(BotMessageRepository.java:22)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 19:58:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getIndexMessage(BotMessageRepository.java:63)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.BotMessageRepository.next(BotMessageRepository.java:18)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:23)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 20:13:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "4" для параметра "columnIndex"
+Invalid value "4" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.getRandomMessage(BotMessageRepository.java:56)
+	at SkyNet.BotMessageRepository.getMessage(BotMessageRepository.java:52)
+	at SkyNet.ExecutableCommands.lambda$new$0(ExecutableCommands.java:11)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:21)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 20:13:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:28)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:22)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2020-02-10 20:13:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:298)
+	at SkyNet.SQLConnection.executeQuery(SQLConnection.java:46)
+	at SkyNet.BotMessageRepository.findMessage(BotMessageRepository.java:28)
+	at SkyNet.ExecutableCommands.doCommand(ExecutableCommands.java:22)
+	at SkyNet.BotSkyNet.sendMsg(BotSkyNet.java:20)
+	at SkyNet.BotSkyNet.onUpdateReceived(BotSkyNet.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
