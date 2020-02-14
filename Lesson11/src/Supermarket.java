@@ -14,7 +14,6 @@ public class Supermarket {
 
 
     public static void main(String[] args) throws InterruptedException {
-        Supermarket.
         int countPeople=0;
         ArrayList<ConcurrentLinkedQueue<String>> queues = new ArrayList<>();
         for (int i = 0; i < COUNTER_PROCESSES; i++) {

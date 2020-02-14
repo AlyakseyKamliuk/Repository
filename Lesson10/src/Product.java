@@ -79,4 +79,6 @@ public class Product implements Comparable{
     public int compareTo(Object o) {
         return Double.compare(getPrice(), ((Product)o).getPrice());
     }
+
+
 }

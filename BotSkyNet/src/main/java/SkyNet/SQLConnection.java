@@ -1,11 +1,13 @@
 package SkyNet;
+import org.h2.jdbc.JdbcSQLDataException;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class SQLConnection implements Closeable {
-
 
     private Connection connection = null;
 
@@ -44,9 +46,9 @@ public class SQLConnection implements Closeable {
                 while (true) {
                     try {
                         tmp=resultSet.getString(i);
-                    } catch (SQLException e) {
-                        i=1;
-                        break;
+                    } catch (Exception e) {
+                       i=1;
+                       break;
                     }
                     if (tmp!=null) arrayList.add(tmp);
                     i++;
@@ -59,7 +61,6 @@ public class SQLConnection implements Closeable {
         }
     }
 
-
     @Override
     public void close() throws IOException {
         try {
@@ -68,5 +69,4 @@ public class SQLConnection implements Closeable {
             e.printStackTrace();
         }
     }
-
 }

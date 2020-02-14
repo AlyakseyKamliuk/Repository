@@ -4,18 +4,14 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import java.util.HashMap;
-import java.util.Map;
 
 public class HelperMethod {
 
     public String help(HashMap<String, Command> map) {
-
-           HashMap<String, String> helpMap = createMap();
-        String commands = "Приветсвую! Я бот SkyNet версия 1.1. \nЯ предоставляю мемы, или знаменитые высказывания Великих людей!\nСписок команд: \n";
-        for (Map.Entry<String, Command> p : map.entrySet()) {
-            commands += p.getKey() == null ? "Любое сообщение    -     " + helpMap.get(null) + ".\n" : p.getKey() + "  -   " + helpMap.get(p.getKey()) + ".\n";
-        }
-        return commands;
+        HashMap<String, String> helpMap = createMap();
+        String[] commands = {"Приветсвую! Я бот SkyNet версия 1.1. \nЯ предоставляю мемы, или знаменитые высказывания Великих людей!\nСписок команд: \n"};
+        map.entrySet().stream().forEach(p -> commands[0] +=  p.getKey() + "  -   " + helpMap.get(p.getKey()) + ".\n");
+        return commands[0];
     }
 
     public String memChackNorris() {
@@ -29,7 +25,7 @@ public class HelperMethod {
         } catch (UnirestException e) {
             e.printStackTrace();
         }
-        return response.getBody().substring(response.getBody().indexOf("value")+8,response.getBody().lastIndexOf("}")-1);
+        return response.getBody().substring(response.getBody().indexOf("value") + 8, response.getBody().lastIndexOf("}") - 1);
     }
 
     private HashMap<String, String> createMap() {

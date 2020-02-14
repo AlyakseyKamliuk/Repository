@@ -1,9 +1,10 @@
 package SkyNet;
+
 import java.util.HashMap;
 
 public class ExecutableCommands {
     private final HashMap<String, Command> map = new HashMap<>();
-    private final HelperMethod helperMethod=new HelperMethod();
+    private final HelperMethod helperMethod = new HelperMethod();
     private final BotMessageRepository botMessageRepository = new BotMessageRepository();
     private String message = "";
 
@@ -13,7 +14,7 @@ public class ExecutableCommands {
         map.put("Next", botMessageRepository::next);
         map.put("Previous", botMessageRepository::previous);
         map.put("Help!", () -> helperMethod.help(map));
-        map.put("Save", ()->botMessageRepository.saveMessage(message));
+        map.put("Save", () -> botMessageRepository.saveMessage(message));
     }
 
     public String doCommand(String chatId, String message) {

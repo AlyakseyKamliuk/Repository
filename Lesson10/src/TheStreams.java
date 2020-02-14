@@ -1,5 +1,6 @@
 import java.util.*;
-import java.util.function.Predicate;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class TheStreams {
@@ -35,9 +36,18 @@ public class TheStreams {
     }
 
     public Map<String, Long> countPropucts(ArrayList<Product> products) {
-        return products.stream().collect(Collectors.groupingBy(Product::getName,Collectors.counting()));
+        return products.stream().collect(Collectors.groupingBy(Product::getName, Collectors.counting()));
+
+    }
+    public Map<String, Long> countPropucts2(ArrayList<Product> products) {
+        Product prod=new Product(1, 10.0, "Product");
+        AAA aaa=prod::getName;
+        return null;
 
     }
 
+    interface AAA{
+        void a();
+    }
 
 }

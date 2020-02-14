@@ -3,25 +3,22 @@ import java.util.ArrayList;
 
 public class BotMessageRepository {
     private int indexMessage = 0;
-    private SQLConnection sqlConnection=new SQLConnection();
-
+    private SQLConnection sqlConnection = new SQLConnection();
 
     public String next() {
-      return getMessage(false, ++indexMessage);
+        return getMessage(false, ++indexMessage);
     }
 
     public String previous() {
-      return getMessage(false, --indexMessage);
+        return getMessage(false, indexMessage=indexMessage==0?0:--indexMessage);
     }
 
     public String findMessage(String message) {
-        String tmp = "";
+        String[] tmp = {""};
         ArrayList<String> result;
         result = sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name FROM authorsMessages INNER JOIN authors ON authors.id=authorsMessages.authorID WHERE authors.name LIKE '%" + message + "%' OR authorsMessages.message LIKE '%" + message + "%'");
-        for (int i = 0; i < result.size(); i++) {
-            tmp+=result.get(i);
-        }
-        return tmp;
+        result.stream().forEach(p -> tmp[0] += p);
+        return tmp[0]=tmp[0].equals("")?"Даже не знаю что тебе на это сказать!":tmp[0];
     }
 
     public String saveMessage(String command) {
@@ -31,7 +28,7 @@ public class BotMessageRepository {
         int authorID = 0;
         ArrayList<String> arrayList;
         arrayList = sqlConnection.executeQuery("SELECT authors.id FROM authors WHERE authors.name LIKE '" + author + "'");
-        authorID = arrayList.size()!=0?Integer.parseInt(arrayList.get(0)):-1;
+        authorID = arrayList.size() != 0 ? Integer.parseInt(arrayList.get(0)) : -1;
         if (authorID == -1) {
             authorID = getSizeAuthors() + 1;
             sqlConnection.execute("INSERT INTO authors(id,name) values (" + authorID + ",'" + author + "\n')");
@@ -45,15 +42,15 @@ public class BotMessageRepository {
     }
 
     private String getRandomMessage() {
-        ArrayList<String> listMessage=sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name, authorsMessages.id FROM authors, authorsMessages WHERE authors.id LIKE authorsMessages.authorID ORDER BY RAND() LIMIT 1");
-        indexMessage=Integer.parseInt(listMessage.get(2));
-        return listMessage.size()!=0?listMessage.get(0)+listMessage.get(1):"Нет данных!";
+        ArrayList<String> listMessage = sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name, authorsMessages.id FROM authors, authorsMessages WHERE authors.id LIKE authorsMessages.authorID ORDER BY RAND() LIMIT 1");
+        indexMessage = Integer.parseInt(listMessage.get(2));
+        return listMessage.size() != 0 ? listMessage.get(0) + listMessage.get(1) : "Нет данных!";
     }
 
     private String getIndexMessage(int indexMessage) {
         this.indexMessage = indexMessage;
-        ArrayList<String> listMessage=sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name FROM authors, authorsMessages WHERE authorsMessages.id LIKE '" + this.indexMessage + "' AND authors.id LIKE authorsMessages.authorID");
-        return listMessage.size()!=0?listMessage.get(0)+listMessage.get(1):"Нет данных!";
+        ArrayList<String> listMessage = sqlConnection.executeQuery("SELECT authorsMessages.message, authors.name FROM authors, authorsMessages WHERE authorsMessages.id LIKE '" + this.indexMessage + "' AND authors.id LIKE authorsMessages.authorID");
+        return listMessage.size() != 0 ? listMessage.get(0) + listMessage.get(1) : "Мы на дне! Предлогаете его пробить?";
     }
 
     private int getSize() {
